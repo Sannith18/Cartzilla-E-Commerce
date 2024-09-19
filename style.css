@@ -1,0 +1,111 @@
+*{
+    max-width: 90vw;
+    margin: 0 auto;
+}
+#bcd{
+    margin-top: 60px;
+    
+}
+#xyz{
+    margin-top: 60px;
+}
+#cde{
+    margin-top: 60px;
+}
+#def{
+    margin-top: 60px;
+}
+#gfg{
+    padding: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cdc{
+    border-radius: 12rem;
+    width: 400px;
+    height: 260px;
+}
+#abc{
+    row-gap: 1rem;
+    column-gap: 1rem;
+    margin-top: 2rem;
+}
+#xyg{
+    text-align: center;
+    column-gap: 8rem;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cwc{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#wcc{
+    display: flex;
+}
+#usk{
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    margin-top: 60px;
+    border: 2px solid rgb(206, 204, 204);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    border-radius: 1rem;
+}
+#cnd:hover{
+    transform: scale(1.06);
+}
+@media screen and (max-width:940px) {
+    #nav{
+        display: none;
+    }
+    #bcd{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #cde,#cdb{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+    #abc{
+        font-size: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #xyg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #wcc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #cnd{
+        width: 530px;
+    }
+    #foot{
+        font-size: 10px;
+    }
+    #make{
+        font-size: 10px;
+    }
+}
